@@ -64,5 +64,21 @@ namespace Sparky
             return gradingCalculator.GetGrade();
             //return Assert.That(result, Is.EqualTo("F"));
         }
+
+        [Test]
+        [TestCase(95, 90, ExpectedResult = "A")]
+        [TestCase(85, 90, ExpectedResult = "B")]
+        [TestCase(65, 90, ExpectedResult = "C")]
+        [TestCase(95, 65, ExpectedResult = "B")]
+        [TestCase(95, 55, ExpectedResult = "F")]
+        [TestCase(65, 55, ExpectedResult = "F")]
+        [TestCase(50, 90, ExpectedResult = "F")]
+        public string GetGrade_WithAllLogicalScenario_ReturnGrade(int a, int b)
+        {
+            gradingCalculator.Score = a;
+            gradingCalculator.AttendancePercentage = b;
+            return gradingCalculator.GetGrade();
+            //return Assert.That(result, Is.EqualTo("F"));
+        }
     }
 }

@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31410.223
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sparky", "Sparky\Sparky.csproj", "{0408F1EA-FB12-475F-B1E7-15E0396AB5E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sparky", "Sparky\Sparky.csproj", "{0408F1EA-FB12-475F-B1E7-15E0396AB5E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkyMSTest", "SparkyMSTest\SparkyMSTest.csproj", "{97FB7332-75B2-484D-9BF1-EAC72579EC55}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SparkyMSTest", "SparkyMSTest\SparkyMSTest.csproj", "{97FB7332-75B2-484D-9BF1-EAC72579EC55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkyNUnitTest", "SparkyNUnitTest\SparkyNUnitTest.csproj", "{D38BAAC8-DE1D-4514-BCCE-C78C2AA40522}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SparkyNUnitTest", "SparkyNUnitTest\SparkyNUnitTest.csproj", "{D38BAAC8-DE1D-4514-BCCE-C78C2AA40522}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SparkyXUnitTest", "SparkyXUnitTest\SparkyXUnitTest.csproj", "{0A800537-0403-4079-8F0C-DED0842384E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{D38BAAC8-DE1D-4514-BCCE-C78C2AA40522}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D38BAAC8-DE1D-4514-BCCE-C78C2AA40522}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D38BAAC8-DE1D-4514-BCCE-C78C2AA40522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A800537-0403-4079-8F0C-DED0842384E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A800537-0403-4079-8F0C-DED0842384E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A800537-0403-4079-8F0C-DED0842384E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A800537-0403-4079-8F0C-DED0842384E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
